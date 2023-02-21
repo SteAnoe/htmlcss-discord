@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-struttura-discord</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -14,11 +15,11 @@
         <nav id="nav" class="container flex">
             <img src="./assets/img/logo.svg" alt="logo">
             <ul>
-                <li><a href="">Scarica</a></li>
-                <li><a href="">Perchè Discord</a></li>
-                <li><a href="">Nitro</a></li>
-                <li><a href="">Sicurezza</a></li>
-                <li><a href="">Assistenza</a></li>
+                <li class="nav-bar"><a href="">Scarica</a></li>
+                <li class="nav-bar"><a href="">Perchè Discord</a></li>
+                <li class="nav-bar"><a href="">Nitro</a></li>
+                <li class="nav-bar"><a href="">Sicurezza</a></li>
+                <li class="nav-bar"><a href="">Assistenza</a></li>
             </ul>
             <a id="accedi" href="">Accedi</a>
         </nav>
@@ -73,21 +74,70 @@
     </main>
 
     <footer>
-        <section class="container flex">
-            <div class="h-400 footer-box1"></div>
-            <div class="h-400 footer-box"></div>
-            <div class="h-400 footer-box"></div>
-            <div class="h-400 footer-box"></div>
-            <div class="h-400 footer-box"></div>
+        <section id="foot-top" class="container flex">
+            <div class="footer-box1">
+                <h2 id="posto" class="titolo">Il tuo posto per parlare</h2>
+                <img id="ita" src="./assets/img/ita.png" alt=""><span class="ita">Italiano<i class="arrow down"></i></span>
+                <div id="social">
+                    <a class="social" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a class="social" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a class="social" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                </div> 
+            </div>
+            <div class="footer-box flex">
+                <ul id="">
+                    <li class="footer-menu titolo">Prodotto</li>
+                    <li class="footer-menu">Scarica</li>
+                    <li class="footer-menu">Perchè Discord</li>
+                    <li class="footer-menu">Nitro</li>
+                    <li class="footer-menu">Sicurezza</li>
+                    <li class="footer-menu">Assistenza</li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <ul id="">
+                    <li class="footer-menu titolo">Compagnia</li>
+                    <li class="footer-menu">Chi siamo</li>
+                    <li class="footer-menu">Lavora con noi</li>
+                    <li class="footer-menu">Marchio</li>
+                    <li class="footer-menu">Redazione</li>
+                    <li class="footer-menu">Negozio</li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <ul>
+                    <li class="footer-menu titolo">Risorse</li>
+                    <li class="footer-menu">Scarica</li>
+                    <li class="footer-menu">Perchè Discord</li>
+                    <li class="footer-menu">Nitro</li>
+                    <li class="footer-menu">Redazione</li>
+                    <li class="footer-menu">Negozio</li>
+                    <li class="footer-menu">Compagnia</li>
+                    <li class="footer-menu">Chi siamo</li>
+                    <li class="footer-menu">Lavora con noi</li>
+                    <li class="footer-menu">Marchio</li>
+                    <li class="footer-menu">Redazione</li>
+                    <li class="footer-menu">Negozio</li>
+                </ul> 
+            </div>
+            <div class="footer-box">
+                <ul>
+                    <li class="footer-menu titolo">Norme</li>
+                    <li class="footer-menu">Chi siamo</li>
+                    <li class="footer-menu">Lavora con noi</li>
+                    <li class="footer-menu">Marchio</li>
+                    <li class="footer-menu">Redazione</li>
+                    <li class="footer-menu">Negozio</li>
+                </ul>
+            </div>
         </section>
         
         <hr class="container">
         
         <section class="container flex">
-            <a href="">
-                <img src="" alt="logo">
-            </a>
-            <a href="">regisrati</a>
+            <img src="./assets/img/logo.svg" alt="logo">
+            <a id="registrati" href="">Registrati</a>
         </section>
     </footer>
 </body>

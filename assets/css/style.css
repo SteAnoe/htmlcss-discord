@@ -60,7 +60,7 @@ nav{
     padding: 20px 5px;
 }
 
-li{
+.nav-bar{
     list-style-type: none;
     display: inline-block;
     margin: 0 10px;
@@ -108,7 +108,7 @@ div.bottoni a{
 }
 
 #bg-black{
-    background-color: #0d0d0d;
+    background-color: #23272a;
     color: white;
 
 }
@@ -126,7 +126,7 @@ main section{
 }
 
 main section:nth-child(even){
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 .box-1{
@@ -152,14 +152,19 @@ main section:nth-child(even){
 .bg-img{
     background-image: url(../img/stars.svg);
     font-size: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
 }
 
 #scarica{ 
     border-radius: 40px;
-    padding: 10px;
-    background-color: aquamarine;
+    padding: 18px;
+    background-color: #8ea1e1;
     color: white;
+    font-size: 25px;
 }
 
 /* footer */
@@ -169,14 +174,11 @@ footer{
 }
 
 .footer-box1{
-    background-color: lightcoral;
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 
 .footer-box{
-    background-color: lightseagreen;
-    flex-basis: calc(60% / 4);
-    border: 1px dashed white;
+    flex-basis: calc(70% / 4);
 }
 
 hr{
@@ -187,11 +189,65 @@ section:last-child{
     justify-content: space-between;
 }
 
+.footer-menu{
+    list-style-type: none;
+    margin-bottom: 5px;
+    color: white;
+}
 
+.titolo{
+    color: #748ce0;
+    margin-bottom: 5px;
+}
 
+#foot-top{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.social{
+    color: white;
+    margin-right: 10px;
+}
 
+#social{
+    margin-top: 15px;
+}
 
+#posto{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+#ita{
+    width: 5%;
+    margin-right: 10px;
+}
+
+.ita{
+    color: white;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.arrow {
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+#registrati{ 
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #8ea1e1;
+    color: white;
+    font-size: 13px;
+}
 
 
 
