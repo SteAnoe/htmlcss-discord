@@ -4,7 +4,25 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* utility */
+.link{
+    text-decoration: none; 
+    border-radius: 40px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+.f-size{
+    font-size: 30px;
+}
+
+
 .container{
     width: 80%;
     margin-left: auto;
@@ -16,26 +34,27 @@
 }
 
 .h-400{
-    height: 400px;
+    height: 500px;
 }
 
 
 /* header */
 header{
-    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-bottom: 20px;
+    background-image: url(../img/jumbo.png);
 }
 
 
 /* nav */
 nav{
-    background-color: blue;
     padding: 10px 0;
 }
 
 
 #nav{
-    background-color: green;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5px;
@@ -47,16 +66,61 @@ li{
     margin: 0 10px;
 }
 
-/* intro */
-#intro div{
-    background-color: pink;
-    margin-top: 20px;
+li a{
+    color: white;
 }
 
+#accedi{
+    border-radius: 40px;
+    background-color: white;
+    padding: 10px;
+}
 
+/* intro */
+h1{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: white;
+}
 
+#intro{
+    margin-top: 20px;
+    text-align: center;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.bottoni{
+    margin-bottom: 200px;
+}
+div#intro p{
+    color: white;
+    margin-bottom: 50px;
+}
+
+div.bottoni a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#bg-black{
+    background-color: #0d0d0d;
+    color: white;
+
+}
 
 /* main */
+.container-1{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 main section{
     padding: 20px 0;
 }
@@ -67,18 +131,36 @@ main section:nth-child(even){
 
 .box-1{
     flex-basis: 70%;
-    background-color: blueviolet;
 }
 .box-2{
     flex-basis: 30%;
-    background-color: black;
 }
 
-.box-3{
-    background-color: green;
+.main-font{
+    font-size: 55px;
 }
 
+.second-font{
+    font-size: 20px;
+    margin-top: 40px;
+}
 
+.main-last{
+    text-align: center;
+}
+
+.bg-img{
+    background-image: url(../img/stars.svg);
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#scarica{ 
+    border-radius: 40px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+}
 
 /* footer */
 footer{
